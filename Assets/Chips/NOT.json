@@ -1,5 +1,5 @@
 {
-    "name": "AND",
+    "name": "NOT",
     "gates": {
         "1": { "type": "input" },
         "2": { "type": "output" }
