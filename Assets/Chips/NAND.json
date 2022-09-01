@@ -1,0 +1,10 @@
+{
+    "name": "NAND",
+    "gates": {
+        "1": { "type": "input", "leads": [4] },
+        "2": { "type": "input", "leads": [4] },
+        "3": { "type": "output" },
+        "4": { "type": "AND", "leads": [5] },
+        "5": { "type": "NOT", "leads": [3] }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "AND",
+    "gates": {
+        "1": { "type": "input" },
+        "2": { "type": "input" },
+        "3": { "type": "output" }
+    }
+}
