@@ -1,12 +1,12 @@
 {
     "name": "HAHAJK",
     "gates": {
-        "1": { "type": "input", "leads": [5] },
-        "2": { "type": "input", "leads": [5, 7] },
-        "3": { "type": "output" },
-        "4": { "type": "output" },
-        "5": { "type": "AND", "leads": [6] },
-        "6": { "type": "NOT", "leads": [3] },
-        "7": { "type": "NOT", "leads": [4] }
+        "1": { "type": "input" },
+        "2": { "type": "input" },
+        "3": { "type": "output", "from": [6] },
+        "4": { "type": "output", "from": [7] },
+        "5": { "type": "AND", "from": [1, 2] },
+        "6": { "type": "NOT", "from": [5] },
+        "7": { "type": "NOT", "from": [2] }
     }
 }
